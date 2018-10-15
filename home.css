@@ -136,6 +136,7 @@ img{
 .last-picture{
     width: 247px;
     height: 130px;
+    cursor: pointer;
     /* border: 1px solid black; */
 }
 .last-text{

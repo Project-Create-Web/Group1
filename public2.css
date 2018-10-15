@@ -11,7 +11,7 @@
     height: 20px;
     color: rgb(104, 104, 104);
 }
-.navbar a:nth-child(4){
+.navbar a:nth-child(7){
     color: #D8A235;
 }
 .navbar a:nth-child(8){
@@ -73,9 +73,13 @@
 .pad-text{
     margin-top: -15px;
 }
+.image{
+    cursor: pointer;
+}
 .image2{
     width: 250px;
     height: 90%;
+    cursor: pointer;
 }
 .pad-text2{
     margin-top: -15px;

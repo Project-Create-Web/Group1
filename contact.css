@@ -11,7 +11,7 @@
     height: 20px;
     color: rgb(104, 104, 104);
 }
-.navbar a:nth-child(4){
+.navbar a:nth-child(8){
     color: #D8A235;
 }
 .navbar a:nth-child(8){
@@ -74,7 +74,7 @@ input{
 input:nth-child(3){
     /* height: 150px; */
     padding-left: 30px;
-    padding-top: 20px;
+    /* padding-top: 10px; */
     padding-bottom: 80px;
     color: rgb(186, 186, 186);
 }
@@ -87,6 +87,7 @@ input:last-of-type{
     border-radius: 10px;
     color: #D8A235;
     height: 30px;
+    cursor: pointer;
 }
 .inp1{
     padding-left: 30px;
@@ -116,7 +117,7 @@ input:last-of-type{
     letter-spacing: 1px;
 }
 .grid-section2{
-    background:linear-gradient(rgba(28, 28, 28, 0.4),rgba(28, 28, 28, 0.4)), url(img/head2.png);
+    background:linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.3)), url(img/head2.png);
     padding: 20px 10px; 
     color:white; 
     text-align: justify;  
@@ -125,8 +126,12 @@ input:last-of-type{
     margin-left: 60px;
     margin-top: 40px;
 }
+.push i{
+    cursor: pointer;
+}
 .ic{
     margin-left: 20px;
+    cursor: pointer;
 }
 .footer{
     display: grid;
@@ -158,4 +163,21 @@ input:last-of-type{
     border: 1px solid rgb(204, 203, 203);
     margin-left: 100%;
     box-shadow: 0px -6px  15px rgb(204, 203, 203);
+}
+.ico1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.ico1 i{
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 7px 7px;
+    cursor: pointer;
+}
+.con{
+    cursor: pointer;
+}
+.link{
+    cursor: pointer;
 }
