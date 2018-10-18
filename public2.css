@@ -1,3 +1,7 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
 .navbar{
     display: grid;
     grid-template-columns: 100px 150px auto 100px 120px 130px 190px 150px 80px;
@@ -35,7 +39,7 @@
     height:350px;
     width: 100%;
 }
-.grid-container{
+.grid-container2{
     display: grid;
     grid-template-columns: 270px auto 270px;
     padding-bottom: 80px;
